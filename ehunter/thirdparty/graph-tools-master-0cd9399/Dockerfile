@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 
 RUN apt-get -qq update && apt-get install -yq \
     wget curl software-properties-common && \
