@@ -1,4 +1,4 @@
-FROM ubuntu:xenial-20210416
+FROM ubuntu:mantic-20240530
 
 RUN apt-get -qq update && apt-get install -yq \
     wget curl software-properties-common && \
